@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Tools I Use</title>
+    <meta name="author" content="Rocktim Saikia" />
+    <meta name="robots" content="noindex" />
+    <style>
+      body {
+        display: flex;
+        justtify-content: center;
+        align-items: center;
+        height: 100vh;
+        max-width: 700px;
+        margin: 0 auto;
+        font-family: Verdana, sans-serif;
+        background-color: #17191a;
+        color: #a49e94;
+        font-size: 15px;
+        line-height: 1.3;
+        padding: 0 20px;
+      }
+      main {
+        /* width: 100%; */
+      }
+      h1 {
+        color: burlywood;
+      }
+      a,
+      a:visited,
+      a:hover,
+      a:active {
+        color: burlywood;
+        /* text-decoration: none; */
+      }
+
+      article {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+        div {
+          border: 1px solid #333333;
+          padding: 10px;
+        }
+
+        @media screen and (max-width: 480px) {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Tools I Use</h1>
+      </header>
+      <article>
+        <div>
+          <a href="https://brandmark.io/" target="_blank">brandmark.io</a>
+          <p>Logo design tool.</p>
+        </div>
+        <div>
+          <a href="https://namelix.com/" target="_blank">namelix.com</a>
+          <p>Business name generator.</p>
+        </div>
+        <div>
+          <a href="https://mycolor.space" target="_blank">mycolor.space</a>
+          <p>Color palette generator.</p>
+        </div>
+        <div>
+          <a href="https://crontab.cronhub.io/" target="_blank">cronhub.io</a>
+          <p>Cron expression generator.</p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
