@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Resume</title>
+    <meta name="author" content="Rocktim Saikia" />
+    <meta name="robots" content="follow, index" />
+    <style>
+      :root {
+        --primary-text-color: #a49e94;
+      }
+
+      body {
+        display: flex;
+        height: 100vh;
+        max-width: 800px;
+        margin: 0 auto;
+        font-family: Verdana, sans-serif;
+        background-color: #17191a;
+        color: var(--primary-text-color);
+        font-size: 18px;
+        line-height: 1.3;
+        padding: 0 20px;
+      }
+      h1,
+      h2 {
+        color: #4ba376;
+      }
+      a,
+      a:visited,
+      a:hover,
+      a:active {
+        color: burlywood;
+        /* text-decoration: none; */
+      }
+
+      h2 {
+        font-weight: 500;
+        margin-top: 5rem;
+      }
+
+      .exp-container {
+        font-size: 18px;
+
+        .exp-company {
+          font-weight: 600;
+        }
+
+        .exp-positions-container {
+          margin-left: 20px;
+        }
+
+        .exp-position {
+          margin-top: 10px;
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        .exp-timespan {
+          color: #6f6f6f;
+          font-weight: 400;
+        }
+
+        .achievements {
+          li {
+            margin-bottom: 30px;
+
+            &:nth-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Rocktim Saikia</h1>
+        <p>
+          Hi, I am Fullstack Software Engineer with 5 years of professional work
+          experience. I write code and build software that scales and bring revenue to
+          your company. And I am currently working as a Senior Software Engineer at
+          Codingal, A YC 2021 batch company.
+        </p>
+      </header>
+      <article>
+        <section>
+          <h2>Professional Experience</h2>
+          <div class="exp-container">
+            <div>
+              <span class="exp-company">Codingal,</span>
+              <span class="exp-timespan">Bengaluru, India | 2021 - Present</span>
+            </div>
+            <div class="exp-positions-container">
+              <div class="exp-position">
+                — Senior Software Engineer
+                <span class="exp-timespan">| Apr 2023 - Present</span>
+              </div>
+              <ul class="achievements">
+                <li>
+                  Architected and implemented a global payment infrastructure supporting
+                  multiple payment gateways (Stripe, Razorpay, PayPal, Flutterwave),
+                  enabling international transactions and significantly contributing to
+                  company's financial growth.
+                </li>
+                <li>
+                  Developed comprehensive authentication system for the platform,
+                  including password management, reset functionality, and robust
+                  validation protocols.
+                </li>
+                <li>
+                  Engineered "Codingal Rewind" – an interactive feature celebrating
+                  students' yearly achievements through personalized UI components and
+                  animated data visualizations, with complete backend architecture for
+                  showcasing metrics like completed classes, study hours, and earned
+                  certificates.
+                </li>
+              </ul>
+            </div>
+
+            <div class="exp-positions-container">
+              <div class="exp-position">
+                — Software Engineer
+                <span class="exp-timespan">| Oct 2021 - Apr 2023</span>
+              </div>
+              <ul class="achievements">
+                <li>
+                  Enhanced dashboard performance through modular API development and
+                  component-based loading, significantly improving UI responsiveness and
+                  eliminating timeout issues.
+                </li>
+                <li>
+                  Spearheaded development of AI progress report generator, evolving from a
+                  hackathon project (2nd place) into a core component of the customer
+                  journey.
+                </li>
+                <li>
+                  Engineered an automated backup solution for Redash queries using Python
+                  and Shell scripting, implementing daily GitHub synchronization to ensure
+                  business continuity.
+                </li>
+              </ul>
+            </div>
+
+            <div class="exp-positions-container">
+              <div class="exp-position">
+                — Software Engineer Intern
+                <span class="exp-timespan">| Jul 2021 2021 - Oct 2021</span>
+              </div>
+              <ul class="achievements">
+                <li>
+                  Worked on internationalization (i18n) implementation across the product,
+                  developing a foundational framework for localized geo landing pages that
+                  aligned with marketing strategies and global expansion goals
+                </li>
+                <li>
+                  Engineered reusable React hooks including a sophisticated country
+                  detection system with multi-layered algorithm, improving location-based
+                  user experience and content delivery.
+                </li>
+                <li>
+                  Worked with team on performance optimization initiatives across the
+                  application, conducting thorough analysis and delivering detailed
+                  progress reports that resulted in improved page load times and user
+                  engagement.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="exp-company">Animechan.io</span>
+              <span class="exp-timespan">| 2021 - Present</span>
+
+              <div class="exp-positions-container">
+                <div class="exp-position">— Founder | Engineer</div>
+                <div>
+                  Animechan is a comprehensive anime quotes and information API service
+                  that provides developers with access to a curated database of anime
+                  content. Our API delivers episode counts, detailed show summaries,
+                  character information, and memorable quotes from thousands of anime
+                  series. You can easily filter and search quotes by specific anime titles
+                  or character names, making it perfect for anime-focused applications and
+                  websites.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
